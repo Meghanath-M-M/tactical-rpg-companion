@@ -1,0 +1,22 @@
+{
+  "player_name": "Sakai_Ghost",
+  "character_class": "Samurai Assassin",
+  "current_level": 18,
+  "health_pool": "45/100",
+  "equipped_loadout": {
+    "primary_weapon": "Storm of Sakai Katana",
+    "armor": "Ghost Armor (Stealth Tier 3)",
+    "quick_items": ["Smoke Bomb", "Kunai Knives", "Sticky Bomb"]
+  },
+  "current_location": "Tsushima - Toyotama Region (Enemy Camp Proximity)",
+  "active_quest": "Clear the Kamiagata Infiltration Camp",
+  "enemy_scout_report": {
+    "enemy_types": ["Mongol Shieldmen", "Spearmen", "Brutes with Fire Lances"],
+    "environmental_factors": ["High Tall Grass", "Cliffside Vantage Points", "Nighttime, Rainy"]
+  },
+  "choice_history": [
+    "Spared the village thief",
+    "Chose poison tactics over honorable duel",
+    "Recruited the local straw-hat ronin"
+  ]
+}
