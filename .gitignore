@@ -1,0 +1,11 @@
+.env
+demo
+agent.log
+bug_report.md
+*.code-workspace
+__pycache__/
+*.pyc
+*.db
+*.wav
+*.mp3
+screenshot.*
