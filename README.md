@@ -1,5 +1,6 @@
 # 🛡️ Tactical RPG Multi-Agent Companion
 **Agents League Hackathon | Creative Apps Track**
+🚀 **[CLICK HERE TO LAUNCH THE LIVE DEMO](https://tactical-rpg-agent.streamlit.app/)** 🚀
 
 An interactive, multi-modal AI commander that analyzes live gameplay screenshots and provides real-time tactical advice using simulated enterprise knowledge retrieval and multi-agent reasoning.
 
