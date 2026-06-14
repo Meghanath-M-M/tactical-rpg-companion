@@ -1,14 +1,11 @@
 # -*- coding: utf-8 -*-
-import os
+
 import base64
 import sqlite3
 import streamlit as st
 import re
 from openai import OpenAI
-from dotenv import load_dotenv
 
-# Load system environment keys
-load_dotenv()
 
 # ==========================================
 # DATABASE LAYER (Agent Persistent Memory)
@@ -241,11 +238,13 @@ class RPGTacticalAgent:
         self.game_name = game_name
         self.playstyle = playstyle
         self.persona = persona
-        self.token = os.getenv("GITHUB_TOKEN")
 
-        if not self.token:
+        # SECURE CREDENTIAL LOADING via Streamlit Secrets
+        try:
+            self.token = st.secrets["GITHUB_TOKEN"]
+        except (KeyError, FileNotFoundError):
             st.error(
-                "❌ Missing GITHUB_TOKEN environment variable. Please check your .env file."
+                "❌ Missing GITHUB_TOKEN. Please ensure it is added to Streamlit Advanced Settings."
             )
             st.stop()
 

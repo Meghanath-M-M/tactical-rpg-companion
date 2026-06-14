@@ -10,3 +10,5 @@ __pycache__/
 *.mp3
 screenshot.*
 .venv/
+# Streamlit secrets
+.streamlit/secrets.toml
